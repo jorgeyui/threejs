@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Earth</title>
+    <link rel="stylesheet" href="styles.css">
+    <script async src="https://unpkg.com/es-module-shims@1.8.0/dist/es-module-shims.js"></script>
+    <script type="importmap">
+        {
+        "imports": {
+        "three": "https://unpkg.com/three@0.156.1/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.156.1/examples/jsm/"
+        }
+     }
+    </script>
+</head>
+<body>
+    <div class="header">
+        <h1>3D Earth</h1>
+        <p1 id="displayText">Sample</p1>
+        <p2 id="contText">Right Click for cordenates</p2>
+    </div>
+    <div id="viz"></div>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
